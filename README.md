@@ -203,10 +203,13 @@ The objective of this study is to find out explanations or reasons why the produ
 A comprehensive diagnosis is recommended, including the Time usage model for fixed Plants, which will require to understand and take into consideration at least the following points:
 
 • Identify the  bottlenecks (equipment) in the  process. 
+
 • Time usage model* considering: inputs (attributes) and output Kpi`s, in annual (52 weeks) and monthly timeframes.
+
 • Data found in the compiled daily reports at the Short Term Planning area plant.
-• The included data analysis is from 1 July 2009 through October 2010. The period analyzed includes 12 months of on-budget      
-	  production.
+
+• The included data analysis is from 1 July 2009 through October 2010. The period analyzed includes 12 months of on-budget production.
+
 • The right operational discipline to plan and execute the programmed and non-programmed maintenance, not including crusher upstream 
 	  and downstream operation.
 
