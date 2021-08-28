@@ -1,19 +1,20 @@
 # Classificação do tempo de inatividade em Kpi´s de manutenção na industria da mineração, com base no modelo de uso do tempo e Autoencoder.
 
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------
 Aluno: [Rodolfo Gustavo Stocker Seguel](https://github.com/rodolfostocker).
 
 Orientador: [Leonardo Forero Mendoza](https://github.com/leofome8).
 
 Co-orientadora: [Manoela Kholer](https://github.com/manoelakohler).
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como pré-requisito para conclusão de curso e obtenção de crédito na disciplina "Projetos de Sistemas Inteligentes de Apoio à Decisão".
 
-[TCC_BI2019_4_RS](https://github.com/rodolfostocker/TCC_BI2019_4_RS/blob/main/TCC_BI2019_4_RS_TS.ipynb). 
+[Link para o código](https://github.com/rodolfostocker/TCC_BI2019_4_RS/blob/main/TCC_BI2019_4_RS_TS.ipynb).
 
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 Resumo
@@ -78,13 +79,17 @@ Um ciclo de fluxo de trabalho de dados começa com a construção de um cronogra
 Compreender os requisitos específicos:
 
 Vou começar fazendo algumas perguntas SMART. Essas perguntas devem ser facilmente respondidas por dados históricos mensuráveis e relacionadas a um problema de negócios específico:
+
 Como posso definir o sucesso deste projeto?
-“Rápido e preciso o suficiente para ajudar os tomadores de decisão mensalmente, semanalmente e diariamente” 
+“Rápido e preciso o suficiente para ajudar os tomadores de decisão mensalmente, semanalmente e diariamente”. 
+
 Uma análise bem-sucedida deve ser precisa? Quão precisa é a solução? 
-Com a precisão adequada, "ou seja, o resultado final deve ser melhor do que a linha de base", os melhores parâmetros do modelo serão salvos.
-Melhor desempenho do modelo: além das explicações acima, deve ser bem executado em termos de custo computacional, impressão de memória e questionar, se o subprocesso será escalável usando, por exemplo, OOP.
+Com a precisão adequada, "ou seja, o resultado final deve ser melhor * do que a linha de base", os melhores parâmetros do modelo serão salvos.
+
+(*) Melhor desempenho do modelo: além das explicações acima, deve ser bem executado em termos de custo computacional, impressão de memória e questionar, se o subprocesso será escalável usando, por exemplo, OOP.
+
 Existe uma descrição do conjunto de dados disponível para contextualizar o problema enfrentado?
-Este é um conjunto de dados de domínio não público, consistindo em 360 linhas e 17 atributos.
+Este é um conjunto de dados de "domínio não público", consistindo em 360 linhas e 17 atributos.
 
 Compreendendo o dicionário do caso de negócios específico:
 
