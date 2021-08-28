@@ -1,6 +1,6 @@
-# TCC_BI2019_4_RS
+# Classificação do tempo de inatividade em Kpi´s de manutenção na industria da mineração, com base no modelo de uso do tempo e Autoencoder.
 
-'''Classificação do tempo de inatividade em Kpi´s de manutenção na industria da mineração, com base no modelo de uso do tempo.’’’
+'''Classificação do tempo de inatividade em Kpi´s de manutenção na industria da mineração.’’’
 
 Aluno: [Rodolfo Gustavo Stocker Seguel](https://github.com/rodolfostocker).
 
@@ -29,15 +29,15 @@ A pré-análise indica que o déficit de produção ocorre porque as tonelagens 
 O objetivo deste estudo é descobrir explicações ou motivos pelos quais a produção e a saída do britador apresentam uma variação negativa se comparada com o orçamento. Portanto, pode-se presumir que existem algumas variáveis que afetam o rendimento do britador.
 Recomenda-se um diagnóstico abrangente, incluindo o modelo de uso de tempo para plantas fixas, que exigirá compreender e levar em consideração, pelo menos, os seguintes pontos:
 
-•Identificar os gargalos de produção (equipamentos).
+• Identificar os gargalos de produção (equipamentos).
 
-•Modelo de uso de tempo considerando: Kpi de entradas (atributos) e saídas.
+• Modelo de uso de tempo considerando: Kpi de entradas (atributos) e saídas.
 
-•Dados encontrados nos relatórios diários foram compilados na planta da área de planejamento de curto prazo.
+• Dados encontrados nos relatórios diários foram compilados na planta da área de planejamento de curto prazo.
 
-•A análise de dados incluída é de o  período analisado inclui 12 meses de produção dentro do orçamento.
+• A análise de dados incluída é de o  período analisado inclui 12 meses de produção dentro do orçamento.
 
-•A disciplina operacional certa para planejar e executar a manutenção programada e não programada, não incluindo a operação do britador rio acima e rio abaixo. 
+• A disciplina operacional certa para planejar e executar a manutenção programada e não programada, não incluindo a operação do britador rio acima e rio abaixo. 
 
 Definições:
 
@@ -45,28 +45,28 @@ Atualmente no mundo dos negócios, uma das maneiras mais poderosas de usar dados
 Todo tipo de tomada de decisão baseada em dados é estabelecida usando fatos para orientar a estratégia de negócios, de forma que a análise de dados possa ser usada para melhorar o processo de negócios, identificar oportunidades de negócios, como um gargalo em uma instalação de processo. Uma vez que isso seja definido, um analista de dados encontrará os dados, então ele os analisará e os usará para encontrar tendências, padrões e relacionamentos.
 Os analistas irão questionar os especialistas no assunto (neste caso hipotético em particular, para o engenheiro de confiabilidade **) para definir o problema a ser resolvido e o que poderia ser um resultado bem-sucedido ou pelo menos ajudar a resolvê-lo. A chave é descobrir a combinação exata de dados e conhecimento de negócios, para esta definição de projeto em particular, portanto, combinar fatos e dados com conhecimento de negócios fará parte do processo.
 
-•Modelo de uso de tempo: Modelo utilizado para alocar o tempo em diferentes categorias, comparando desempenhos para melhorá-lo.
+(*) Modelo de uso de tempo: Modelo utilizado para alocar o tempo em diferentes categorias, comparando desempenhos para melhorá-lo.
   
 A análise começa com a exploração dos dados do um sub processo de mineração para a  cominuição de minério encontrados em relatórios diários na planta da área de planejamento de curto prazo. Os dados analisados incluem informações de 1º de julho de 2010 a outubro de 2011. O período analisado inclui 12 meses de produção dentro do orçamento.
 
 A primeira pré-análise consiste em descrever estatisticamente um ano do Kpi de manutenção  a partir de um registro operacional off-line para um equipamento de mineração de britagem pesada. Por exemplo, KPI : a Utilização U ***, a disponibilidade A **** e assim por diante.
 
-•Processo de tomada de decisão:
+(*) Processo de tomada de decisão:
 A sequência do processo é: definir o problema, coletar informações, coletar dados, desenvolver, pesar opções e selecionar a melhor opção possível, planejar e executar modelos.
 
-** Engenheiros de confiabilidade abordam 3 questões básicas:
+(**) Engenheiros de confiabilidade abordam 3 questões básicas:
 
-•Quando algo falha?
+• Quando algo falha?
 
-•Por que ele falha?
+• Por que ele falha?
 
-•A probabilidade de falha pode ser reduzida e como?
+• A probabilidade de falha pode ser reduzida e como?
 
-•observação: Engenharia de confiabilidade é a disciplina que garante que um sistema funcionará conforme necessário, ao longo de um período de tempo especificado, quando operado e mantido de uma maneira específica.
+• observação: Engenharia de confiabilidade é a disciplina que garante que um sistema funcionará conforme necessário, ao longo de um período de tempo especificado, quando operado e mantido de uma maneira específica.
 
-*** U expresso em porcentagem de utilização: A parte do tempo do calendário em que o equipamento executa sua função principal.
+(***) U expresso em porcentagem de utilização: A parte do tempo do calendário em que o equipamento executa sua função principal.
 
-**** A expresso em porcentagem de disponibilidade: A porcentagem de tempo no calendário em que o equipamento está fisicamente disponível para o trabalho.
+(****) A expresso em porcentagem de disponibilidade: A porcentagem de tempo no calendário em que o equipamento está fisicamente disponível para o trabalho.
 
 
 Fases do projeto:
@@ -126,7 +126,7 @@ Os especialistas no assunto, também o Engenheiro de Confiabilidade (RCM *), com
 Estou respondendo à pergunta?
 Com o conjunto de dados final rotulado, é possível obter insights valiosos, verificar suposições, reconhecer melhores oportunidades e desafios, apoiar objetivos, fazer melhores planos de manutenção. Ao atualizar o desempenho de manutenção do KPI, os engenheiros de confiabilidade levarão as informações e os efeitos do equipamento para declará-lo fisicamente disponível para o trabalho.
 
-* RCM Reliability Centered Maintenance, é uma estratégia de manutenção a nível corporativo implementada para otimizar o programa de manutenção de uma empresa ou instalação.
+(*) RCM Reliability Centered Maintenance, é uma estratégia de manutenção a nível corporativo implementada para otimizar o programa de manutenção de uma empresa ou instalação.
 
 Entregáveis do projeto:
 
@@ -135,23 +135,23 @@ Dados disponíveis, o ciclo de vida da análise de dados compilados. O processo 
 
 Como decido qual modelo se encaixa melhor? Os modelos univariado ou multivariado baseado em proximidade ou densidade, IsoRF, classificador de RF ou regressão logarítmica para classificação. Alem do anterior, sempre que me envolvo em atividades de modelagem, é necessário entender primeiro os dados envolvidos; este é o EDA*.
 
-•O objetivo principal da * EDA é compreender melhor os dados, como transformá-los, se necessário, como avaliar as limitações, suposições 
+• O objetivo principal da * EDA é compreender melhor os dados, como transformá-los, se necessário, como avaliar as limitações, suposições 
   inerentes à estrutura de dados e como os dados se encaixam nas estruturas subjacentes, a fim de decidir quais sera o melhor abordagem 
   para o modelagem.
 
 Objetivos de la EDA: 
 
 Como entender os dados para uma modelagem adequada:
-•Limpeza de dados: Renomear variáveis, conversão de tipo de dados, codificação de dados se necessário, mesclar conjuntos de dados,  
+• Limpeza de dados: Renomear variáveis, conversão de tipo de dados, codificação de dados se necessário, mesclar conjuntos de dados,  
  transformar variáveis, gerenciar valores ausentes, gerenciar valores anômalos. Nesses casos, será necessário lidar com eles usando outra   abordagem, porque eles podem conter as pistas para novos insights.
   
-•Seleção preliminar de modelos apropriados e coleções de ferramentas. 
+• Seleção preliminar de modelos apropriados e coleções de ferramentas. 
 
-•Os dados estão em um formato adequado (ponto de verificação), como conjuntos de dados Tidy?
+• Os dados estão em um formato adequado (ponto de verificação), como conjuntos de dados Tidy?
 
-•Revisão da suposição: Fornecendo um resumo descritivo do conjunto de dados.
+• Revisão da suposição: Fornecendo um resumo descritivo do conjunto de dados.
 
-•Determinar relações entre variáveis.
+• Determinar relações entre variáveis.
 
 
 Modelagem
@@ -159,11 +159,11 @@ Modelagem
 Várias abordagens para apoiar a tomada de decisão para Análise de Causa Raiz podem ser obtidas usando um Método Clássico amplamente usado em ecossistemas Industriais primários, com base no desvio padrão para detecção de anomalias em um conjunto de dados organizado e, por exemplo, dois Algoritmos de Aprendizado de Máquina para abordagens não supervisionadas (IsoForest) e semi-supervisionadas (Deep Anomaly Detection).
 O procedimento final de seleção do modelo ajustado.
 
-•Comecei com o tipo de modelo simples, mas poderoso para classificação. Assim, tive uma idéia do desempenho possível.
+• Comecei com o tipo de modelo simples, mas poderoso para classificação. Assim, tive uma idéia do desempenho possível.
 
-•Em seguida, ajustei o modelo mais simples e claro.
+• Em seguida, ajustei o modelo mais simples e claro.
 
-•Avaliei o custo de desempenho de usar um modelo mais simples.
+• Avaliei o custo de desempenho de usar um modelo mais simples.
 
 
 Abordagem Não Supervisionada e Semi Supervisionada usando o Modelo AE de Aprendizado Profundo *:
@@ -173,7 +173,7 @@ Modelos não supervisionados, como K-Means e AE (para clustering) mais uma regre
 
 O processo de modelagem não supervisionado começa agrupando e reduzindo, capturando poucos atributos em um espaço menor (2D) e, em seguida, marcando a classificação com o objetivo de classificar todos os tipos de anomalias em tipos atípicos, estejam eles presentes nos conjuntos de dados ou em um novo conjunto de dados.
 
-*AE, como funciona?
+(*) AE, como funciona?
 Enquanto o modelo é treinado, ele pode ser aprendido como os recursos ficarão em dados normais e serão compactados em um espacio latente (w) e decodificá-lo de volta como entrada com um pequeno erro. Quando uma anomalia é enviada através do modelo, ele não conseguirá reproduzi-la, pois foi treinado para reproduzir apenas os dados normais e acabará com um grande MSE. Nesse caso, precisamos calcular o MSE da saída em comparação com a entrada e diferenciar corretamente as anomalias, verificando as saídas, precisamos definir um valor limite para MSE de acordo com nossas necessidades para que ele preveja com boa precisão e recuperação.
 
 
@@ -202,12 +202,12 @@ The pre analysis indicates that the production shortfall is because the produced
 The objective of this study is to find out explanations or reasons why the production and the crusher output have a negative variation if compared with the budget.  Therefore, it could be assumed that there are some variables impacting the crusher throughput.
 A comprehensive diagnosis is recommended, including the Time usage model for fixed Plants, which will require to understand and take into consideration at least the following points:
 
-•Identify the  bottlenecks (equipment) in the  process. 
-•Time usage model* considering: inputs (attributes) and output Kpi`s, in annual (52 weeks) and monthly timeframes.
-•Data found in the compiled daily reports at the Short Term Planning area plant.
-•The included data analysis is from 1 July 2009 through October 2010. The period analyzed includes 12 months of on-budget      
+• Identify the  bottlenecks (equipment) in the  process. 
+• Time usage model* considering: inputs (attributes) and output Kpi`s, in annual (52 weeks) and monthly timeframes.
+• Data found in the compiled daily reports at the Short Term Planning area plant.
+• The included data analysis is from 1 July 2009 through October 2010. The period analyzed includes 12 months of on-budget      
 	  production.
-•The right operational discipline to plan and execute the programmed and non-programmed maintenance, not including crusher upstream 
+• The right operational discipline to plan and execute the programmed and non-programmed maintenance, not including crusher upstream 
 	  and downstream operation.
 
 Definitions:
@@ -216,27 +216,28 @@ Currently in business, one of the most powerful ways to use unprocessed data is 
 All kind of data-driven decision-making is established by using facts to guide the business strategy, so data Analysis can be used to improve the business process, identify business opportunities, such as a bottleneck in a process facility. Once this is defined, a data analyst will find data, then he will analyse and use them to find trends, patterns and relationships.
 The analysts will question the subject matter experts (in this particular hypothetical case, to the Reliability engineer ** ) to define both the problem to be solved and what could be a successful result or at least help to solve it. The key is to figure out the exact mix of data and business knowledge for this particular project definition, therefore combining facts and data with business knowledge will be part of the process.
 
-* Time Usage Model:Model used to allocate time in different categories, comparing performances in order to improve it.
+(*) Time Usage Model:Model used to allocate time in different categories, comparing performances in order to improve it.
 
 The analysis begins with the exploration of the comminution mining process data found in daily reports at the Short Term Planning area plant. The analysed data includes information from 1 July 2010 through October 2011 . The period analysed includes 12 months of on-budget production.
 
 The first pre analysis consists in statistically describing one year of KPI ́s maintenance from an off-line operational record for a heavy duty crusher mining equipment. Such as, KPI ́s Result : the Utilisation  U***, the availability A**** and so on.
-* Decision Making Process
+
+(*) Decision Making Process
 The process sequency is: define the problem, collect information, collect data, develop, weigh options and selection of the best possible option, plan and execute models.
 
-** Reliability engineers address 3 basic questions:
+(**) Reliability engineers address 3 basic questions:
 
-•When does something fail?
+• When does something fail?
   
-•Why does it fail?
+• Why does it fail?
   
-•Could the probability of failure be reduced and how?
+• Could the probability of failure be reduced and how?
 
-*note: Reliability engineering is the discipline ensuring that a system will function as required over a specified time period when operated and maintained in a specific manner.
+(*) note: Reliability engineering is the discipline ensuring that a system will function as required over a specified time period when operated and maintained in a specific manner.
 
-*** U expressed in percentage of Utilisation: The portion of calendar time when the equipment performs its main function.
+(***) U expressed in percentage of Utilisation: The portion of calendar time when the equipment performs its main function.
 
-**** A expressed in percentage of  Availability: The percentage of calendar time when the equipment is physically available for work.
+(****) A expressed in percentage of  Availability: The percentage of calendar time when the equipment is physically available for work.
 
 Project Phases:
 
@@ -302,7 +303,7 @@ The matter experts, also the Reliability Engineer (RCM *) sharing their findings
 Am I answering the question?
 With the final dataset labeled, is possible to get valuable insights, verify assumptions, recognize better opportunities and challenges, support objectives, make better maintenance plans.  By updating the KPI Maintenance Performance, the Reliability Engineer centers will take equipment information and effects to declare it physically available for work.  
 
-* RCM Reliability Centered Maintenance, is maintenance strategy at corporate-level implemented to optimise the maintenance program of a company or facility.
+(*) RCM Reliability Centered Maintenance, is maintenance strategy at corporate-level implemented to optimise the maintenance program of a company or facility.
 
 Project Deliverables:
 
@@ -313,22 +314,22 @@ Data goes through several phases: created, consumed, tested, processed, and repr
 How do I decide which model will fit better? (i.e., Proximity or Density based univariate or multivariate model, IsoRF,RF Classifier or Logarithmic Regression for classification).
 Whenever I engage in modelling activity, it is necessary to understand first the involved data; this is EDA*.
 
-*The primary purpose for the EDA is to better understand the data, how to transform it, if necessary, how to assess limitations,  inherent assumptions in the data structure and how the data fits in underlying structures in order to decide the best approach to the modelling. 
+(*) The primary purpose for the EDA is to better understand the data, how to transform it, if necessary, how to assess limitations,  inherent assumptions in the data structure and how the data fits in underlying structures in order to decide the best approach to the modelling. 
 
 EDA objectives: How to understand data in order to proper modelling?
 
 
-•Data Cleaning: Rename variables, data type conversion, encoding data if necessary, merge datasets, transform variables, managing 
+• Data Cleaning: Rename variables, data type conversion, encoding data if necessary, merge datasets, transform variables, managing 
 	 missing values, managing anomalous values.  In these cases it will be necessary dealing with them using another approach because  
 	 they can hold the clues to new insights.
     
-•Preliminary select of appropriate models libraries and  data mining tools.
+• Preliminary select of appropriate models libraries and  data mining tools.
   
-•Check point; Is the data in an appropriate format, as Tidy datasets?
+• Check point; Is the data in an appropriate format, as Tidy datasets?
   
-•Reviewing assumption: Provide descriptive dataset summary
+• Reviewing assumption: Provide descriptive dataset summary
   
-•Determining relationships between variables.
+• Determining relationships between variables.
 
 
 Modeling:
@@ -336,16 +337,16 @@ Modeling:
 Several approaches to support the decision making for Root Cause Analysis is obtainable using a Classical Method widely used on primary Industrial ecosystems based on standard deviation to anomaly detection on tidy dataset and for instance two Machine Learning Algorithms for unsupervised (IsoForest) and semi supervised approaches (Deep Anomaly Detection).
 The final model selection procedure could be useful.
 
-•Start with the most powerful simple type of model for classification. Get a sense of the possible performance.
+• Start with the most powerful simple type of model for classification. Get a sense of the possible performance.
   
-•Then fit the more simple /clear model.
+• Then fit the more simple /clear model.
   
-•Evaluate the performance cost of using a simpler model.
+• Evaluate the performance cost of using a simpler model.
 
 Unsupervised and Semi Supervised Approach using Deep Learning Model AE*:
 
 Unsupervised Models, such as K-Means and AE (for clustering) plus a logistic Regression (as classifier) to classified anomalies of equipment stoppage with the know-how from the matter experts. The unsupervised modeling process begin by clustering and reducing, capturing few features into a latent space (w) and then tagging the classification with the aim of classifying all types of anomalies into outlier types, whether they are present in the datasets or in a new unseen dataset.
-* AE, how it works? 
+(*) AE, how it works? 
 While the model is trained it could be learned how the features will look like in normal data and are compressed into a small element and decode it back as input with a small error. When an anomaly is sent through the model, it will fail to reproduce it, since it is trained to reproduce only normal data and will end up with a large MSE. In  that case we need to calculate the MSE of the output compared with the input and correctly differentiate the anomalies, by checking the outputs we need to set a threshold value for MSE according to our needs so that it will predict with good precision and recall.
 
 Final Model
