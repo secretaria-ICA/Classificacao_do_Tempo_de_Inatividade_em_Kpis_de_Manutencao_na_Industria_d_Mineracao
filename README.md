@@ -1,4 +1,4 @@
-# Classificação do tempo de inatividade em Kpi´s de manutenção na industria da mineração, com base no modelo de uso do tempo e Autoencoder.
+# Classificação do Tempo de Inatividade em Kpi´s de Manutenção na Industria da Mineração, com Base no Modelo de Uso do Tempo e Autoencoder.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 Aluno: [Rodolfo Gustavo Stocker Seguel](https://github.com/rodolfostocker).
